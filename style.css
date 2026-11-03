@@ -1,13 +1,19 @@
 
 
 /* General styling */
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 40px;
     background-color: #f8f9fa;
     color: #333;
+}*/
+body {
+    background-image: url("copy1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 /* Header */
 header {
     margin-bottom: 30px;
