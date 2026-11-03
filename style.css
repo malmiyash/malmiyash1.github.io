@@ -22,9 +22,9 @@ header {
 /* About section: picture + text side by side */
 .about {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     gap: 40px;
-    margin-bottom: 50px;
 }
 
 /* Profile picture */
@@ -32,7 +32,7 @@ header {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 50%;
+   /* border-radius: 50%;*/
 }
 
 /* About text */
