@@ -36,8 +36,8 @@ h1 {
 }
 
 img {
-  width: 40px;          /* Makes it small */
-  height: 40px;         /* Must match width exactly to make a perfect circle */
+  width: 340px;          /* Makes it small */
+  height: 340px;         /* Must match width exactly to make a perfect circle */
   border-radius: 50%;   /* Makes the image perfectly round */
   object-fit: cover;    /* Prevents the image from stretching or distorting */
   
