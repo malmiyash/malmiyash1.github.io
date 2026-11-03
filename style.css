@@ -35,7 +35,12 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
+.top-right-logo {
+  width: 40px;          /* Makes it small */
+  height: 40px;         /* Must match width exactly to make a perfect circle */
+  border-radius: 50%;   /* Makes the image perfectly round */
+  object-fit: cover;    /* Prevents the image from stretching or distorting */
+  
+  margin-left: auto;    /* Pushes the block all the way to the top-right corner */
+  margin-right: 0;      /* Pins it to the right edge */
 }
