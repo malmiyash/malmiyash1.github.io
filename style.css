@@ -1,40 +1,68 @@
-html {
-  font-size: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
 
 
-h1 {
-  font-size: 60px;
-  text-align: left;
-}
-
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
-}
-
-
-html {
-  background-color: #00539F;
-}
-
+/* General styling */
 body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f8f9fa;
+    color: #333;
+}
 
-  margin: 0 auto;
-  background-color: #c0e5eb;
-  
+/* Header */
+header {
+    margin-bottom: 30px;
+}
+
+/* About section: picture + text side by side */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+/* Profile picture */
+.profile-picture img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* About text */
+.about-text {
+    flex: 1;
+    line-height: 1.7;
+}
+
+/* Projects, research and volunteering */
+.content-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.content-section h2 {
+    color: #245b75;
+}
+
+.project {
+    margin-bottom: 25px;
+}
+
+/* Mobile screen */
+@media (max-width: 700px) {
+    .about {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-picture img {
+        width: 180px;
+        height: 180px;
+    }
 }
 
 
 
-img {
-  width: 250px;          /* Makes it small */
-  height: 250px;         /* Must match width exactly to make a perfect circle */
-  border-radius: 50%;   /* Makes the image perfectly round */
-  object-fit: cover;    /* Prevents the image from stretching or distorting */
-  
-  margin-left: auto;    /* Pushes the block all the way to the top-right corner */
-  margin-right: 0;      /* Pins it to the right edge */
-}
