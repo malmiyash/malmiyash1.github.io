@@ -35,7 +35,7 @@ h1 {
   text-shadow: 3px 3px 1px black;
 }
 
-.top-right-logo {
+img {
   width: 40px;          /* Makes it small */
   height: 40px;         /* Must match width exactly to make a perfect circle */
   border-radius: 50%;   /* Makes the image perfectly round */
