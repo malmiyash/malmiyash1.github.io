@@ -68,17 +68,58 @@ header {
   border-radius: 50%;
 }
 
+/* Projects section */
+.content-section-project {
+    margin-top: 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+}
 
+.content-section-project h2 {
+    color: #245b75;
+}
+
+/* Individual project box */
+/*.project-box {
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
+*/
+/* Project images grid */
+.project-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+/* Individual images */
+.project-images img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+   /* border-radius: 10px; */
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+    .project-images {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* Projects, research and volunteering */
-.content-section {
+.content-section-volunteer {
     margin-top: 40px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
 }
 
-.content-section h2 {
+.content-section-volunteer h2 {
     color: #245b75;
 }
 
