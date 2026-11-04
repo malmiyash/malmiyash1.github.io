@@ -61,12 +61,14 @@ header {
 }
 
 /* Profile picture */
-.profile-picture img {
+.profile-image  {
     width: 250px;
     height: 250px;
     object-fit: cover;
   border-radius: 50%;
 }
+
+
 
 /* Projects section */
 .content-section-project {
