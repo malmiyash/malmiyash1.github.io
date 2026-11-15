@@ -26,6 +26,13 @@ header {
     gap: 40px;
 }
 
+.about {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
 /* About section */
 .about-text {
     flex: 1;
