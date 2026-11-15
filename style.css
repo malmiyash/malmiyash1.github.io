@@ -19,6 +19,12 @@ header {
     margin-bottom: 30px;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
 /* About section: picture + text side by side */
 .about {
     display: flex;
