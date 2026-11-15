@@ -15,14 +15,27 @@ body {
     background-attachment: fixed;
 }
 /* Header */
-header {
-    margin-bottom: 30px;
-}
+
 
 header {
     display: flex;
     align-items: center;
     gap: 25px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    margin-bottom: 10px;
+}
+
+.header-text h2 {
+    margin-top: 0;
 }
 
 /* About section: picture + text side by side */
