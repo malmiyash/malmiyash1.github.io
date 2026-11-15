@@ -151,6 +151,16 @@ header {
     color: #245b75;
 }
 
+.content-section-volunteer ul {
+    line-height: 1.8;
+    padding-left: 25px;
+}
+
+.content-section-volunteer li {
+    margin-bottom: 15px;
+}
+
+
 .project {
     margin-bottom: 25px;
 }
